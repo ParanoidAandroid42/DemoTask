@@ -2739,11 +2739,6 @@ var Dev;
                             console.log("Please spin");
                             this.fakePayCalculate();
                             break;
-                        case Dev.Enum.DataListener.updateBalance:
-                            console.log("Updated Balance");
-                            console.log("Current Balance = " + data.balance);
-                            this.emit(Dev.Enum.DataListener.updateBalance, data);
-                            break;
                     }
                 }
             };
